@@ -80,7 +80,7 @@ if __name__ == "__main__":
     data = FER2013(
         "train",
         {
-            "data_path": "/home/z/research/tee/saved/data/fer2013/",
+            "data_path": "/content/fer_checkpoints/fer_data/",
             "image_size": 224,
             "in_channels": 3,
         },
