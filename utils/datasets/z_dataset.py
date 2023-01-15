@@ -89,7 +89,7 @@ if __name__ == "__main__":
     data = affectnet(
         "val",
         {
-            "_data_path": "/home/z/research/tee/saved/data/fer2013/",
+            "_data_path": "/content/fer_checkpoints/fer_data/",
             "data_path": "/data/emotion_data/ANDB/affectnet_db/small_zips/Manually_Annotated_compressed",
             "image_size": 224,
             "in_channels": 3,
